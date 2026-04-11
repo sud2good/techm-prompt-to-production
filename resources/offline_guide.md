@@ -1,6 +1,6 @@
 # Assignment Guide
 
-**Nasscom AI-Code Sarathi · prompt-to-production**
+**TechM · prompt-to-production**
 
 This guide walks you through completing the workshop assignment from start to finish.
 Follow every step in order. Do not skip sections.
@@ -10,7 +10,7 @@ Follow every step in order. Do not skip sections.
 ## Contents
 
 1. [What You Need](#1-what-you-need)
-2. [Fork the Repository](#2-fork-the-repository)
+2. [Get the Repository](#2-get-the-repository)
 3. [Clone to Your Computer](#3-clone-to-your-computer)
 4. [Create Your Branch](#4-create-your-branch)
 5. [How the Assignment Works](#5-how-the-assignment-works)
@@ -76,26 +76,16 @@ work in your fork.
 1. Open your web browser and go to:
 
    ```
-   https://github.com/nasscomAI/prompt-to-production
+   https://github.com/nasscomAI/techm-prompt-to-production
    ```
 
-2. Click the **Fork** button in the top-right corner of the page.
+2. If you have push access: Click **Clone** → copy the URL.
+   If you don't have push access: Click **Fork** → create your own copy.
 
-3. On the "Create a new fork" screen:
-   - **Owner** — select your own GitHub username
-   - **Repository name** — leave it as `prompt-to-production`
-   - Leave all other settings as default
-
-4. Click **Create fork**.
-
-5. GitHub will redirect you to your fork. The URL will now show your username:
+3. Clone your fork (or the repo directly):
    ```
-   https://github.com/[your-username]/prompt-to-production
+   git clone https://github.com/nasscomAI/techm-prompt-to-production.git
    ```
-
-> **You now have your own copy of the repository.** All changes you make
-> will go into your fork. You will submit your work by opening a Pull Request
-> from your fork back to the original.
 
 ---
 
@@ -123,7 +113,7 @@ Cloning downloads your fork to your local machine so you can edit files.
 > You should see the following structure:
 >
 > ```
-> prompt-to-production/
+> techm-prompt-to-production/
 > ├── resources/
 > ├── uc-0a/
 > ├── uc-0b/
@@ -630,7 +620,7 @@ Pushing sends your committed work from your local machine to your fork on GitHub
 
 1. Open your browser and go to:
    ```
-   https://github.com/[your-username]/prompt-to-production
+   https://github.com/nasscomAI/techm-prompt-to-production
    ```
 2. Click the **branches** dropdown (shows `main` by default).
 3. Your branch `participant/[your-name]-techm` should appear in the list.
@@ -645,10 +635,10 @@ back to the original repository.
 
 ### 14.1 Open the PR
 
-1. Go to the original repository:
+1. Go to the repository:
 
    ```
-   https://github.com/nasscomAI/prompt-to-production
+   https://github.com/nasscomAI/techm-prompt-to-production
    ```
 
 2. GitHub will show a banner at the top:

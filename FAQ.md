@@ -17,35 +17,33 @@
 
 ## 🚀 Creating a Pull Request (PR)
 
-### Step 1: Fork the Repo
-Click the **Fork** button at the top right of this page. This creates a copy of the workshop code in your own GitHub account.
-
-### Step 2: Clone Your Fork
-Copy your fork's URL and run:
+### Step 1: Clone the Repo
+Clone this repository:
 ```bash
-git clone https://github.com/[your-username]/prompt-to-production.git
-cd prompt-to-production
+git clone https://github.com/nasscomAI/techm-prompt-to-production.git
+cd techm-prompt-to-production
 ```
+If you don't have write access, fork first on GitHub, then clone your fork.
 
-### Step 3: Create a Branch
+### Step 2: Create a Branch
 **Crucial:** Do not work on the \`main\` branch. Create a new one:
 ```bash
 git checkout -b participant/[your-name]-techm
 # Example: git checkout -b participant/arshdeep-techm
 ```
 
-### Step 4: Commit & Push
+### Step 3: Commit & Push
 Follow the commit message standard mentioned in the README:
 ```bash
 git add .
-git commit -m \"[UC-0A] Fix severity: missing keywords → added triggers\"
+git commit -m \"[UC-0A] Fix severity: missing keywords → added triggers"
 git push origin participant/[your-name]-techm
 ```
 
-### Step 5: Open the PR
-1. Go to the **original** repository (nasscomAI/prompt-to-production).
-2. You'll see a yellow bar saying \"Compare & pull request\" — click it!
-3. Ensure the **base** is \`nasscomAI/main\` and the **head** is your branch.
+### Step 4: Open the PR
+1. Go to the repository on GitHub.
+2. You'll see a yellow bar saying "Compare & pull request" — click it!
+3. Ensure the **base** is \`main\` and the **head** is your branch.
 4. Fill out the PR template completely.
 
 ---
