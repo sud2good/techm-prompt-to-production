@@ -9,7 +9,7 @@
 Before you begin, check the FAQ for instructions on Git Issues, creating PRs, and common troubleshooting tips.
 
 **Step 1 — Clone this repo**
-Clone this repo locally. If you have write access, you can push directly. Otherwise, fork on GitHub and push to your fork.
+Clone this repo, create a branch, and push to submit your work via Pull Request.
 
 **Step 2 — Create your branch — one branch for the entire session**
 Name it exactly:

@@ -90,12 +90,12 @@ git push origin participant/[your-name]-[city]
 ## Step 4 — Verify the Push Worked
 
 1. Open your browser
-2. Go to your fork:
+2. Go to the repository:
    ```
-   https://github.com/[your-username]/RAG-to-MCP
+   https://github.com/nasscomAI/techm-prompt-to-production
    ```
 3. Click the **branches** dropdown — it shows `main` by default
-4. Find your branch `participant/[your-name]-[city]` in the list
+4. Find your branch `participant/[your-name]-techm` in the list
 5. Click it — your files should be visible
 
 If your branch is not there — the push did not work. Go back to Step 3.
@@ -121,11 +121,11 @@ If your branch is not there — the push did not work. Go back to Step 3.
 
 3. Set the **title** exactly as:
    ```
-   [City] [Name] — AI-Code Sarathi Submission
+   [TechM] [Name] — Vibe Coding Submission
    ```
    Example:
    ```
-   [Pune] Arshdeep Singh — AI-Code Sarathi Submission
+   [TechM] Arshdeep Singh — Vibe Coding Submission
    ```
 
 ---
@@ -169,7 +169,7 @@ The PR will show the new commits automatically.
 ## Common Problems
 
 **"Your branch is behind main"**
-This means the original repo has been updated since you forked it. You can safely ignore this for submission purposes — your PR will still work.
+This means the repo has been updated since you cloned it. You can safely ignore this for submission purposes — your PR will still work.
 
 **"Nothing to commit"**
 Your files are already committed. Skip to Step 3 — Push.
@@ -204,9 +204,9 @@ git commit -m "your message"
 
 - [ ] All files saved in your code editor
 - [ ] Committed with a meaningful message
-- [ ] Pushed to GitHub — branch visible in your fork
-- [ ] Pull Request opened on the original repo
-- [ ] PR title follows the format: [City] [Name] — AI-Code Sarathi Submission
+- [ ] Pushed to GitHub — branch visible in the repo
+- [ ] Pull Request opened on the repo
+- [ ] PR title follows the format: [TechM] [Name] — Vibe Coding Submission
 - [ ] PR template filled for all UCs you completed
 - [ ] PR URL noted
 

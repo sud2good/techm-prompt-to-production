@@ -68,21 +68,17 @@ python3 -c "import csv, json; print('Ready')"   # Must print: Ready
 
 ---
 
-## 2. Fork the Repository
+## 2. Get the Repository
 
-Forking creates your own copy of the repository on GitHub. You will do all your
-work in your fork.
-
-1. Open your web browser and go to:
+1. Go to:
 
    ```
    https://github.com/nasscomAI/techm-prompt-to-production
    ```
 
-2. If you have push access: Click **Clone** → copy the URL.
-   If you don't have push access: Click **Fork** → create your own copy.
+2. Click **Clone** → copy the URL.
 
-3. Clone your fork (or the repo directly):
+3. Clone the repo:
    ```
    git clone https://github.com/nasscomAI/techm-prompt-to-production.git
    ```
@@ -91,14 +87,14 @@ work in your fork.
 
 ## 3. Clone to Your Computer
 
-Cloning downloads your fork to your local machine so you can edit files.
+Cloning downloads the repo to your local machine so you can edit files.
 
 1. Open **GitHub Desktop**.
 
 2. Click **File → Clone Repository** from the menu.
 
-3. Click the **GitHub.com** tab. Your fork `prompt-to-production` should appear
-   in the list. Click it.
+3. Click the **GitHub.com** tab. Select `techm-prompt-to-production`
+   from the list.
 
 4. Under **Local Path**, choose a folder on your computer where the repo will
    be saved. Note this location — you will need to navigate to it later.
@@ -185,7 +181,7 @@ For every use case, you follow this sequence:
 3. Generate skills.md using AI     → paste the README, get YAML, update it
 4. Build the .py file using AI     → prompt AI coder, run the code
 5. Commit your work                → one commit per UC with a meaningful message
-6. Push to GitHub                  → send your branch to your fork
+6. Push to GitHub                  → send your branch to origin
 ```
 
 ### The RICE Framework — What It Is
@@ -609,11 +605,11 @@ final
 
 ## 13. Step 6 — Push to GitHub
 
-Pushing sends your committed work from your local machine to your fork on GitHub.
+Pushing sends your committed work from your local machine to the repo on GitHub.
 
 1. In **GitHub Desktop**, after committing, look at the top bar.
 2. Click **Push origin**.
-3. GitHub Desktop uploads your branch and commits to your fork.
+3. GitHub Desktop uploads your branch and commits.
 4. When complete, the button changes to **Fetch origin**.
 
 **Verify the push worked:**
@@ -630,8 +626,8 @@ Pushing sends your committed work from your local machine to your fork on GitHub
 
 ## 14. Step 7 — Open a Pull Request
 
-A Pull Request (PR) is your submission. It sends your work from your fork
-back to the original repository.
+A Pull Request (PR) is your submission. It sends your work from your branch
+to the main repository for review.
 
 ### 14.1 Open the PR
 

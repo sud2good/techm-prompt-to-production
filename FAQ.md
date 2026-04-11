@@ -23,7 +23,6 @@ Clone this repository:
 git clone https://github.com/nasscomAI/techm-prompt-to-production.git
 cd techm-prompt-to-production
 ```
-If you don't have write access, fork first on GitHub, then clone your fork.
 
 ### Step 2: Create a Branch
 **Crucial:** Do not work on the \`main\` branch. Create a new one:
@@ -58,7 +57,7 @@ This happens if you haven't set up SSH keys on GitHub or your local agent isn't 
 
 ### ❌ Error: \"Cloned an empty repository\"
 If your folder is empty after cloning:
-1. **Check your URL:** Ensure you are cloning your **fork** (e.g., \`github.com/YOUR-NAME/...\`) and not a blank repository you just created.
+1. **Check your URL:** Ensure you are cloning \`github.com/nasscomAI/techm-prompt-to-production\`.
 2. **Check the branch:** Sometimes the default branch is different. Run \`git branch -a\` to see all available branches.
 3. **Hidden Files:** On Mac/Linux, run \`ls -la\`. On Windows, enable \"Hidden items\" in File Explorer.
 
